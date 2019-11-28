@@ -591,7 +591,7 @@ fn openssl_acceptor(mut builder: SslAcceptorBuilder) -> io::Result<SslAcceptor> 
             Err(AlpnError::NOACK)
         }
     });
-    builder.set_alpn_protos(b"\x08http/1.1\x02h2")?;
+    builder.set_alpn_protos(b"\x08http/1.1")?;
 
     Ok(builder.build())
 }
