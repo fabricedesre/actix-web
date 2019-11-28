@@ -130,12 +130,12 @@ actix-files = { path = "actix-files" }
 actix-multipart = { path = "actix-multipart" }
 awc = { path = "awc" }
 
-actix-codec = { path = "../actix-net/actix-codec" }
-actix-connect = { path = "../actix-net/actix-connect" }
-actix-rt = { path = "../actix-net/actix-rt" }
-actix-server = { path = "../actix-net/actix-server" }
-actix-server-config = { path = "../actix-net/actix-server-config" }
-actix-service = { path = "../actix-net/actix-service" }
-actix-testing = { path = "../actix-net/actix-testing" }
-actix-threadpool = { path = "../actix-net/actix-threadpool" }
-actix-utils = { path = "../actix-net/actix-utils" }
+# actix-codec = { path = "../actix-net/actix-codec" }
+# actix-connect = { path = "../actix-net/actix-connect" }
+# actix-rt = { path = "../actix-net/actix-rt" }
+# actix-server = { path = "../actix-net/actix-server" }
+# actix-server-config = { path = "../actix-net/actix-server-config" }
+# actix-service = { path = "../actix-net/actix-service" }
+# actix-testing = { path = "../actix-net/actix-testing" }
+# actix-threadpool = { path = "../actix-net/actix-threadpool" }
+# actix-utils = { path = "../actix-net/actix-utils" }
