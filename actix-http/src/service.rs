@@ -291,7 +291,8 @@ mod rustls {
             Error = TlsError<io::Error, DispatchError>,
             InitError = (),
         > {
-            let protos = vec!["h2".to_string().into(), "http/1.1".to_string().into()];
+            // TODO(fabrice): understand why h2 is failing with Gecko
+            let protos = vec!["http/1.1".to_string().into()];
             config.set_protocols(&protos);
 
             pipeline_factory(
